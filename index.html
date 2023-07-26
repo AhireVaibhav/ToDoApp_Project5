@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Harshika's 1st Drawing.png">
+    <title>TodoApp Project 5</title>
+</head>
+<body>
+   <div class="main">
+   
+    <div class="parant">
+        <div class="navbar">
+            <div class="text">
+                <span class="task" style="color:#00A5EC;">Tasks </span><span class="li">List</span>
+            </div>
+          <div class="topback"> 
+            <div class="back">
+                <div class="lessthen">< <div class="minus"> - </div>
+                 </div> <div class="teback" >Back</div>
+            
+             </div>
+          </div> 
+          
+            <div class="topheading"></div>
+            <div class="link">
+                    <div class="icon"><div class="plus">+</div>
+                </div> <div class="te" >Add Item</div>
+                
+            </div>
+        </div>
+        
+        <div id="todos" class="todocontainer">
+            <div id="todotextcon" style="color:#00A5EC; font-size: 2.2rem;">No item in the to do list</div>
+    
+        </div>
+
+        <div id="todocard">
+            
+        </div>
+    </div>
+   
+    <div id="popup2"></div>
+    <div class="popup" id="popup">
+        <h2 class="heading1">Add New List</h2>
+        <input type="text" id="taskname" class="inputext1" placeholder="Add New Item">
+        <button class="create1" onclick="createPopup()">Add</button>
+        <button class="delete1" onclick="hide()">Close</button>
+    </div>
+</div>
+                
+     <script src="./script.js"></script>
+    
+</body>
+</html>
